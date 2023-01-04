@@ -1,0 +1,19 @@
+
+.cartItem { 
+  padding: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.left img {  width: 100%; }
+
+@media screen and (max-width: 750px) { 
+
+  .wrapper { flex-direction: column;  }
+  .left img {  width: 60%; }
+
+}

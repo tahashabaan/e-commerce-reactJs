@@ -1,0 +1,32 @@
+.controls {
+  display: flex;
+  margin-bottom: 0.8rem;
+  width: 100%;
+}
+
+.controls input {
+  padding: 0.4rem;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid var(--primary);
+}
+
+.controls input:hover {
+   background-color: var(--secondary);
+}
+
+.controls label {   flex-basis: 20%;   }
+
+.controls input {  flex-basis:80%; }
+
+.error input{  border-color: var(--error);  }
+
+.error label{ color: var(--error);  }
+
+.error input:hover{ background-color: var(--second_error); }
+
+@media screen and (max-width:540px) {
+  .controls {
+    flex-direction: column;
+  }
+}

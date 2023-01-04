@@ -1,0 +1,26 @@
+.login, .register {
+     width: 40%;
+     margin:12rem  auto;
+     list-style: none;   
+}
+
+.btn {
+   width: 6rem;
+   margin-left: 50%;
+   transform: translateX(-50%);
+}
+
+@media screen and (max-width: 740px){
+    .login, .register {
+      width: 80%;
+    }
+}
+
+@media screen and (max-width: 540px){
+   .btn{
+     display: block;
+   }
+   .link {
+      text-align: center;
+   }
+}

@@ -1,0 +1,30 @@
+.form { 
+  margin-top: 10rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.form button:disabled {
+background-color: aliceblue;
+}
+.cardElement {
+    border: 1px solid silver;
+    border-radius: 12px;
+    padding: 0.6rem;
+    width: 60%;
+    color: white;
+    background-color: wheat;
+}
+
+.cardElement::placeholder {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.backend {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

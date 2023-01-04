@@ -1,0 +1,23 @@
+.payment {
+  position: sticky;
+  top: 14%;
+  right: 3%;
+  width: 20rem;
+  margin-left: auto;
+  margin-right: 0.3rem ;
+  list-style: none;
+}
+.payment footer {
+  padding-top: 0.6rem;
+  text-align: center;
+}
+.close {
+  margin-right: 1.3rem;
+}
+
+@media screen and (max-width: 750px){
+  .payment {
+    width: 13rem;
+    margin-bottom: 3rem;;
+  }
+}
